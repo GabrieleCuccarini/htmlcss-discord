@@ -33,9 +33,18 @@ section {
     padding: 20px;
 }
 
-/*.head-small {
+.head-big {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.head-small{
     flex-basis: 25%;
-}*/
+}
+
+.end{
+    text-align: end;
+}
 
 .purple {
     background-color: rgb(238, 130, 238);
