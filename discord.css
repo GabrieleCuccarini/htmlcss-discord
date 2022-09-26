@@ -22,7 +22,7 @@ section {
     width: 920px;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: orange;
+    background-color: rgb(218,165,32);
     display: flex;
     justify-content: space-between;
 }
@@ -30,9 +30,6 @@ section {
 .container {
     width: 920px;
     margin: 0 auto;
-    border: 2px solid blue;
-    /*SOLO perché non ha contenuto, do del
-padding per poter visualizzare*/
     padding: 20px;
 }
 
@@ -67,12 +64,21 @@ padding per poter visualizzare*/
     background-color: rgb(35, 39, 42);
 }
 
+.container-special {
+    width: 920px;
+    margin: 0 auto;
+}
+
 .black>.container-lightteal {
     width: 920px;
     margin: 10px auto;
     display: flex;
     background-color: rgb(127, 255, 212);
     justify-content: space-between;
+}
+
+.last.black {
+    padding: 5px 0 15px 0;
 }
 
 a {
@@ -96,8 +102,18 @@ a {
 
 .col {
     padding: 20px;
-    border: 1px solid yellow;
     flex-grow: 1;
+}
+
+.small {
+    background-color: rgb(32,178,170);
+    border: 1px solid white;
+}
+
+.big {
+    flex-basis: 25%;
+    background-color: rgb(240,128,128);
+    padding: 200px 0;
 }
 
 .col-2 {
