@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    text-align:center;
+}
 
 .nav>section {
     padding: 10px 0;
@@ -14,6 +24,7 @@ section {
     /*border: 2px solid red;*/
 }
 
+/*SETUP NAVBAR*/
 .nav {
     background-color: rgb(173, 216, 230);
 }
@@ -22,7 +33,7 @@ section {
     width: 920px;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: rgb(218,165,32);
+    background-color: rgb(218, 165, 32);
     display: flex;
     justify-content: space-between;
 }
@@ -38,12 +49,71 @@ section {
     text-align: center;
 }
 
-.head-small{
+.head-small {
     flex-basis: 25%;
 }
 
-.end{
+.end {
     text-align: end;
+}
+
+
+.container-special {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.black>.container-lightteal {
+    width: 920px;
+    margin: 10px auto;
+    display: flex;
+    background-color: rgb(127, 255, 212);
+    justify-content: space-between;
+}
+
+.last.black {
+    padding: 5px 0 15px 0;
+}
+
+
+
+.row {
+    display: flex;
+    border: 1px solid green;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.col {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.col-2 {
+    flex-basis: 65%;
+}
+
+.footer-cont {
+    margin: 10px 0;
+    background-color: rgb(255, 182, 193);
+}
+
+.small {
+    background-color: rgb(32, 178, 170);
+    border: 1px solid white;
+}
+
+.big {
+    flex-basis: 25%;
+    background-color: rgb(240, 128, 128);
+    padding: 200px 0;
+}
+
+/*COLORS*/
+.grey {
+    background-color: rgb(211, 211, 211);
 }
 
 .purple {
@@ -71,64 +141,4 @@ section {
 
 .black {
     background-color: rgb(35, 39, 42);
-}
-
-.container-special {
-    width: 920px;
-    margin: 0 auto;
-}
-
-.black>.container-lightteal {
-    width: 920px;
-    margin: 10px auto;
-    display: flex;
-    background-color: rgb(127, 255, 212);
-    justify-content: space-between;
-}
-
-.last.black {
-    padding: 5px 0 15px 0;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.footer-cont {
-    margin: 10px 0;
-    background-color: rgb(255, 182, 193);
-}
-
-.row {
-    display: flex;
-    border: 1px solid green;
-}
-
-.reverse {
-    flex-direction: row-reverse;
-}
-
-.col {
-    padding: 20px;
-    flex-grow: 1;
-}
-
-.small {
-    background-color: rgb(32,178,170);
-    border: 1px solid white;
-}
-
-.big {
-    flex-basis: 25%;
-    background-color: rgb(240,128,128);
-    padding: 200px 0;
-}
-
-.col-2 {
-    flex-basis: 65%;
-}
-
-.grey {
-    background-color: rgb(211, 211, 211);
 }
