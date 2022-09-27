@@ -9,10 +9,12 @@ a {
     color: black;
 }
 
-ul {
+.head-big > ul {
     list-style: none;
-    display: inline-flex;
-    text-align:center;
+}
+
+li {
+    display: inline-block;
 }
 
 .nav>section {
@@ -21,7 +23,6 @@ ul {
 
 section {
     padding: 40px 0;
-    /*border: 2px solid red;*/
 }
 
 /*SETUP NAVBAR*/
@@ -29,13 +30,12 @@ section {
     background-color: rgb(173, 216, 230);
 }
 
-.container-head {
+section > .container-head {
     width: 920px;
     margin: 0 auto;
     padding: 10px 20px;
     background-color: rgb(218, 165, 32);
     display: flex;
-    justify-content: space-between;
 }
 
 .container {
@@ -51,6 +51,11 @@ section {
 
 .head-small {
     flex-basis: 25%;
+}
+
+.head-big,
+.head-small {
+    border: 1px dashed black;
 }
 
 .end {
