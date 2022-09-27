@@ -10,13 +10,23 @@
     box-sizing: border-box;
 }
 
-.containeracaso {
+header {
     background-image: url("img/jumbo.png");
     background-size: cover;
 }
 
 section {
     padding: 40px 0;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
 }
 
 .btn {
@@ -63,7 +73,7 @@ section {
 .head-big ul li a {
     padding: .6rem;
     list-style: none;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -74,6 +84,7 @@ section {
 .head-big {
     flex-basis: 50%;
     text-align: center;
+    padding: 6px 0 0 0;
 }
 
 .head-small {
@@ -84,6 +95,10 @@ section {
     text-align: end;
 }
 
+.testo-settore1 {
+    text-align: center;
+    color: white;
+}
 
 .container-special {
     width: 920px;
@@ -102,11 +117,12 @@ section {
     padding: 5px 0 15px 0;
 }
 
-
-
 .row {
     display: flex;
+    flex-direction: column;
     border: 1px solid green;
+    text-align: center;
+    color: white;
 }
 
 .reverse {
@@ -144,7 +160,7 @@ section {
 }
 
 .purple {
-    padding: 200px 0;
+    padding: 150px 0 380px 0;
 }
 
 .green {
