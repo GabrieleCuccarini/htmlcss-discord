@@ -4,22 +4,6 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.head-big > ul {
-    list-style: none;
-}
-
-li {
-    display: inline-block;
-}
-
-.nav>section {
-    padding: 10px 0;
-}
 
 section {
     padding: 40px 0;
@@ -30,7 +14,7 @@ section {
     background-color: rgb(173, 216, 230);
 }
 
-section > .container-head {
+.nav section .container-head {
     width: 920px;
     margin: 0 auto;
     padding: 10px 20px;
@@ -42,6 +26,21 @@ section > .container-head {
     width: 920px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.head-big ul li {
+    display: inline-block;
+}
+
+.head-big ul li a {
+    padding: .6rem;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+.nav section {
+    padding: 10px 0;
 }
 
 .head-big {
