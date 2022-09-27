@@ -2,6 +2,7 @@
     --color-dark-grey: #23272A;
     --color-violet: rgb(126, 145, 208);
     --btn-radius: 1.8rem;
+    --spacer: 200px 0;
 }
 
 * {
@@ -16,17 +17,37 @@ header {
 }
 
 section {
-    padding: 40px 0;
+    padding: 90px 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
 }
 
 h2 {
     font-size: 3rem;
+    padding-bottom: 1rem;
+    color: var(--color-dark-grey);
+}
+
+h3 {
+    font-size: 2.5rem;
     padding-bottom: 2rem;
+    color: var(--color-dark-grey);
+}
+
+.testo-head p {
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+    line-height: 2rem;
 }
 
 p {
     font-size: 1.2rem;
     padding-bottom: 1rem;
+    line-height: 2rem;
+    color: var(--color-dark-grey);
 }
 
 .btn {
@@ -51,6 +72,11 @@ p {
     color: white;
 }
 
+.btn.blue {
+    background-color: rgb(142,161,225);
+    color: white;
+}
+
 /*SETUP NAVBAR*/
 
 .nav section .container-head {
@@ -71,7 +97,7 @@ p {
 }
 
 .head-big ul li a {
-    padding: .6rem;
+    padding: .7rem;
     list-style: none;
     color: white;
     text-decoration: none;
@@ -83,7 +109,6 @@ p {
 
 .head-big {
     flex-basis: 50%;
-    text-align: center;
     padding: 6px 0 0 0;
 }
 
@@ -95,7 +120,11 @@ p {
     text-align: end;
 }
 
-.testo-settore1 {
+.sector1 {
+    padding: 100px 0 150px 0;
+}
+
+.testo-head {
     text-align: center;
     color: white;
 }
@@ -113,16 +142,14 @@ p {
     justify-content: space-between;
 }
 
-.last.black {
-    padding: 5px 0 15px 0;
-}
-
 .row {
     display: flex;
-    flex-direction: column;
-    border: 1px solid green;
     text-align: center;
     color: white;
+}
+
+.container .column {
+    flex-direction: column-reverse;
 }
 
 .reverse {
@@ -130,12 +157,24 @@ p {
 }
 
 .col {
-    padding: 20px;
+    padding: 20px 0;
     flex-grow: 1;
 }
 
 .col-2 {
-    flex-basis: 65%;
+    flex-basis: 55%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered h3 {
+    padding-top: 0;
+}
+
+.inline {
+    display: inline-block;
 }
 
 .footer-cont {
@@ -151,27 +190,19 @@ p {
 .big {
     flex-basis: 25%;
     background-color: rgb(240, 128, 128);
-    padding: 200px 0;
+    padding: var(--spacer);
+}
+
+.space {
+    padding: var(--spacer);
 }
 
 /*COLORS*/
-.grey {
-    background-color: rgb(211, 211, 211);
-}
-
-.purple {
-    padding: 150px 0 200px 0;
-}
-
-.green {
-    background-color: rgb(34, 139, 34);
-    padding: 300px 0;
-}
-
-.pink {
-    padding: 200px 0;
-}
-
 .black {
-    background-color: rgb(35, 39, 42);
+    color: black;
+}
+
+
+.darkgrey {
+    background-color: var(--color-dark-grey)
 }
