@@ -1,24 +1,52 @@
+:root {
+    --color-dark-grey: #23272A;
+    --color-violet: rgb(126, 145, 208);
+    --btn-radius: 1.8rem;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.containeracaso {
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+}
 
 section {
     padding: 40px 0;
 }
 
-/*SETUP NAVBAR*/
-.nav {
-    background-color: rgb(173, 216, 230);
+.btn {
+    border-radius: var(--btn-radius);
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: bold;
 }
+
+.btn.white {
+    background-color: white;
+    color: var(--color-dark-grey);
+  }
+  
+.btn.black {
+    background-color: var(--color-dark-grey);
+    color: white;
+  }
+  
+.btn.violet {
+    background-color: var(--color-violet);
+    color: white;
+}
+
+/*SETUP NAVBAR*/
 
 .nav section .container-head {
     width: 920px;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: rgb(218, 165, 32);
     display: flex;
 }
 
@@ -50,11 +78,6 @@ section {
 
 .head-small {
     flex-basis: 25%;
-}
-
-.head-big,
-.head-small {
-    border: 1px dashed black;
 }
 
 .end {
@@ -121,12 +144,7 @@ section {
 }
 
 .purple {
-    background-color: rgb(238, 130, 238);
     padding: 200px 0;
-}
-
-.blue {
-    background-color: rgb(0, 0, 139);
 }
 
 .green {
@@ -134,12 +152,7 @@ section {
     padding: 300px 0;
 }
 
-.teal {
-    background-color: rgb(30, 144, 255);
-}
-
 .pink {
-    background-color: rgb(255, 192, 203);
     padding: 200px 0;
 }
 
