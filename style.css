@@ -97,6 +97,11 @@ p {
 
 /*SETUP NAVBAR*/
 
+.nav section {
+    padding: 30px 0 0 0;
+}
+
+
 .nav section .container-head {
     width: 920px;
     margin: 0 auto;
@@ -136,10 +141,6 @@ ul li a,
     text-decoration: none;
 }
 
-.nav section {
-    padding: 10px 0;
-}
-
 .head-big {
     flex-basis: 50%;
     padding: 6px 0 0 0;
@@ -154,7 +155,7 @@ ul li a,
 }
 
 .sector1 {
-    padding: 100px 0 150px 0;
+    padding: 20px 0 100px 0;
 }
 
 .img {
