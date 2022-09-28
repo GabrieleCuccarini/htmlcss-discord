@@ -130,6 +130,7 @@ p {
     text-decoration: none;
 }
 
+.container.space-bet a,
 .black a {
     padding: .7rem;
     list-style: none;
@@ -175,17 +176,17 @@ ul li a,
 
 .last {
     padding-bottom: 0px;
-    border-bottom: 1px solid var(--color-blue);
 }
 
 .container-special {
     width: 920px;
     margin: 0 auto;
+    border-bottom: 1px solid var(--color-blue);
 }
 
 .darkgrey .space-bet {
     width: 920px;
-    margin: 10px auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -230,9 +231,8 @@ ul li a,
     display: inline-block;
 }
 
-.footer-cont {
-    margin: 10px 0;
-    background-color: rgb(255, 182, 193);
+.footer section{
+    padding-top: 1rem;
 }
 
 .foot {
