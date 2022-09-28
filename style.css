@@ -79,7 +79,11 @@ p {
     background-color: white;
     color: var(--color-dark-grey);
   }
-  
+
+.margin {
+  margin-right: 1.5rem;
+}
+
 .btn.black {
     background-color: var(--color-dark-grey);
     color: white;
@@ -155,12 +159,13 @@ ul li a,
 }
 
 .sector1 {
-    padding: 20px 0 100px 0;
+    padding: 20px 0 120px 0;
 }
 
-.img {
+.jumbo {
     background-image: url("img/jumbo.png");
     background-size: cover;
+    background-position: center;
 }
 
 .testo-head {
@@ -178,12 +183,15 @@ ul li a,
     margin: 0 auto;
 }
 
-.black>.container-lightteal {
+.darkgrey .space-bet {
     width: 920px;
     margin: 10px auto;
     display: flex;
-    background-color: rgb(127, 255, 212);
     justify-content: space-between;
+}
+
+.primary {
+    padding: 20px;
 }
 
 .row {
