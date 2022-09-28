@@ -253,6 +253,10 @@ ul li a,
 }
 
 /*COLORS*/
+.grey {
+    background-color: lightgrey;
+}
+
 .black {
     color: black;
 }
